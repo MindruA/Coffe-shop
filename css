@@ -1,0 +1,194 @@
+body{
+   background-color: #201e1f;
+}
+button{
+   z-index: 2;
+   position: absolute;
+   text-align: center;
+   left:1200px;
+   top: 20px;
+  font-size: 22px;
+  height: 60px;
+  border-radius: 23px;
+  border:1px solid gold;
+ cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 400;
+background-color: #201e1f;
+color: white;
+
+}
+button:hover{
+   background-color: gold;
+   color: #201e1f;
+   transition-duration: 0.8s;
+}
+.umbrabut{
+   position: absolute;
+   left:1190px;
+   top: 20px;
+   width: 100px;
+  height: 65px;
+  border-radius: 23px;
+filter: blur(30px);
+background-color: black;
+z-index:1 ;
+
+}
+#tare{
+   position: absolute;
+   left:900px;
+   top: 50px;
+}
+.umbrali{
+   position: absolute;
+  width: 120px;
+  height: 30px;
+  background-color: black;
+   left:1054px;
+   top: 48px;
+   z-index: 1;
+   border-radius: 30px;
+   filter: blur(10px);
+}
+.lista{
+  
+   position: absolute;
+   text-align: center;
+   left:1060px;
+   top: 27px;
+   z-index: 2;
+
+}
+#lista{
+   cursor: pointer;
+   font-size: 15px;
+   background-color: transparent;
+   color: black;
+   background-color:gold;
+   font-weight: bold;
+   border-radius: 20px;
+   border: 0px;
+   text-align: center;
+   z-index: 2;
+}
+nav{
+   margin-top: -8px;
+   margin-left: -8px;
+   margin-right: -7px;
+   width: cover;
+   height: 240px;
+   background-color: #201e1f;
+
+   z-index: 1;
+}
+.imagine-nav{
+   background-image:url(https://img.freepik.com/free-vector/restaurant-mural-wallpaper_52683-47492.jpg);
+   width: auto;
+   height: 240px;
+   background-repeat: no-repeat;
+   z-index: 0;
+   border-bottom: 2px solid #eb880b;
+  
+   
+  
+  
+
+}
+.umbra{
+   filter: blur(20px);
+  background-color: black;
+   border-radius: 180px;
+   width: 310px;
+   height: 300px;
+   margin-left: 780px;
+   margin-top: -140px;
+   position: absolute;
+   z-index: 10; 
+   
+
+}
+.ceasca{
+   border-style: groove;
+   background-image: url(https://media.istockphoto.com/id/177296752/photo/white-cup-filled-with-black-coffee.jpg?s=612x612&w=0&k=20&c=a9WURUg6NkUFRrQ-6--wog1fRU1ym0thbWmcsGby-jY=);
+   width: 290px;
+   height: 280px;
+   margin-left: 800px;
+   margin-top: -150px;
+   background-size: 355px;
+   background-position:-20px;
+   background-repeat: no-repeat;
+border-radius: 350px;
+   position: absolute;
+   z-index: 10; 
+   transition-property: background;
+   transition-duration: 0.7s;
+   transition-delay: 0.5s;
+   transition-timing-function: linear;
+}
+.ceasca:hover{
+   background-image:url(https://img.freepik.com/free-photo/coffee-beans-levitate-white-background_485709-33.jpg?w=740&t=st=1699630835~exp=1699631435~hmac=44fdb7844f5b6efa424b34325c71b700e0147313eff9cbefdc11ad7db185679a);
+   background-size: 500px;
+   background-position: center;
+ cursor:grabbing;
+ 
+}
+.scris{
+   width: 400px;
+   height: 150px;
+  text-shadow: 5px 5px black ;
+   position: absolute;
+   left: 380px;
+   top: 80px;
+   font-family:'Indie Flower', cursive ;
+   font-size: 50px;
+   text-align: center;
+   color: white;
+   transition-duration: 1s;
+   transition-delay: 0.2s;
+   transition-timing-function: linear;
+}
+.scris:hover{
+   color:#C8AE7D;
+}
+.umbraly{
+   margin-top: 120px;
+  border-radius: 20px;
+   filter: blur(20px);
+   background-repeat: no-repeat;
+   width: 750px;
+   height: 420px;
+background-color: black;
+   z-index: 1;
+   position: absolute;
+}
+.layout{
+  margin-top: 70px;
+  border-radius: 20px;
+   margin-left: 25px;
+   background-repeat: no-repeat;
+   width: 700px;
+   height: 450px;
+   background-image: url(https://img.freepik.com/free-photo/cup-coffee-table-front-street-with-city-lights-background_188544-10293.jpg?w=826&t=st=1699646590~exp=1699647190~hmac=1958cb24266d0b2bbe58460a250826411f4d2872b184c23cf9d706288e1e1858);
+   z-index: 2;
+   -webkit-mask-image: linear-gradient(to top,black, transparent);
+   position: absolute;
+   
+  
+   
+}
+.scrislay{
+   width: 500px;
+   height: 350px;
+   position: absolute;
+   text-shadow: 5px 5px black;
+   right:80px;
+   top: 400px;
+   font-size: 60px;
+   color: white;
+   text-align: center;
+   font-family: 'Marck Script', cursive;
+}
+.articol{
+   position: relative;
+}
